@@ -16,8 +16,8 @@ RSpec.describe Domain, type: :model do
         expect(domain.banned_at).not_to be nil
       end
 
-      it "failed spec has correct banned_at" do
-        expect(domain.banned_at).not_to be nil
+      it "really failed spec has correct banned_at" do
+        expect(domain.banned_at).to be nil
       end
 
       it "has correct banned_by_user_id" do
