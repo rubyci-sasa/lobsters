@@ -16,6 +16,10 @@ RSpec.describe Domain, type: :model do
         expect(domain.banned_at).not_to be nil
       end
 
+      it "failed spec has correct banned_at" do
+        expect(domain.banned_at).not_to be nil
+      end
+
       it "has correct banned_by_user_id" do
         expect(domain.banned_by_user_id).to eq user.id
       end
