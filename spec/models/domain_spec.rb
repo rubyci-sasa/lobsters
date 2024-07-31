@@ -95,7 +95,7 @@ RSpec.describe Domain, type: :model do
       end
 
       it "has correct reason" do
-        expect(@moderation.reason).to eq "Test reason"
+        expect(@moderation.reason).to eq "Test reason" 
       end
     end
   end
