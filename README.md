@@ -7,6 +7,7 @@ source code to the
 [https://lobste.rs](https://lobste.rs).
 It is a Rails codebase and uses a SQL (MariaDB in production) backend for the database.
 
+
 You are free to use this code to start your own [sister site](https://github.com/lobsters/lobsters/wiki)
 because the code is available under a [permissive license](https://github.com/lobsters/lobsters/blob/master/LICENSE) (3-clause BSD).
 We welcome bug reports and code contributions that help use improve [lobste.rs](https://lobste.rs).
